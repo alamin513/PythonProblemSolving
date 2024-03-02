@@ -1,0 +1,6 @@
+import math
+m,n,a=map(float,input().split())
+height=math.ceil(n/a)
+weidth=math.ceil(m/a)
+total=height*weidth
+print(total)
